@@ -1,73 +1,53 @@
-# ccna2-proyecto-integrador
-Instrucciones, requerimientos técnicos y política de evaluación para el Proyecto Integrador de la asignatura de Redes (CCNA 2 - SRWE v7).
+# 🌐 Proyecto Integrador: Red Corporativa CCNA 2 (SRWE v7)
 
-
-# 🏢 Proyecto Integrador: Red Corporativa "TechCorp"
-**Asignatura:** Conectividad de Redes (CCNA 2 - SRWE v7)  
-**Profesor:** [ Tu Nombre Completo]  
-**Institución:** [Nombre del Bachillerato]
-
-Bienvenido al repositorio oficial del proyecto integrador. Este espacio contiene el escenario, los requerimientos técnicos y las reglas de evaluación obligatorias para construir la infraestructura de red de la empresa *TechCorp*.
+> **Materia:** Redes de Computadoras / CCNA 2 v7  
+> **Nivel:** Bachillerato Técnico  
+> **Profesor:** elzro  
 
 ---
 
-## 🛑 Política Anti-IA y Sistema de Evaluación Cronológica (¡Importante!)
-Para garantizar un aprendizaje real y profesional, **este proyecto no se califica únicamente por el resultado final, sino por la evidencia de tu proceso de construcción en el tiempo.**
+### 🗺️ Navegación del Proyecto
 
-1. **La Regla de los Commits:** Está estrictamente prohibido subir todo el proyecto terminado en un solo día o de último momento. Cada etapa requiere un **mínimo de 3 "commits" (guardados)** en días y horas diferentes dentro de tu historial de GitHub. 
-2. **Penalización por "Entrega Mágica":** Si tu archivo `.pkt` funciona a la perfección pero tu historial de GitHub muestra un solo commit el último día, **perderás automáticamente el 30% de la calificación** de esa etapa.
-3. **Firma de Identidad CLI:** Todos los switches y routers deben configurarse con un Hostname que incluya tus iniciales (ej. `S1-Piso1-JPA`). Las capturas de pantalla de la consola deben incluir obligatoriamente el comando `show version` para verificar el tiempo de encendido real del simulador.
+[🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
 
 ---
 
-## 📅 Cronograma del Proyecto (3 Etapas Calificables)
+## 📌 Bienvenido al Proyecto Integrador
 
-### 📍 Etapa 1: Infraestructura Base y Segmentación (Módulos 1-4)
-*Configuración inicial de seguridad, diseño de VLANs y Enrutamiento Inter-VLAN.*
+Este portal web contiene las especificaciones, el caso de estudio y los instrumentos de evaluación para el desarrollo de la red corporativa **TechCorp**. 
 
-*   **Hito 1 (Obligatorio en GitHub):** Topología física armada en Packet Tracer, dispositivos nombrados con tus iniciales y contraseñas base configuradas.
-*   **Hito 2 (Obligatorio en GitHub):** Creación de las VLANs de departamentos y asignación de puertos de acceso y troncales.
-*   **Entrega Final Etapa 1:** Configuración de *Router-on-a-Stick*, pruebas de ping exitosas entre VLANs, llenado de la tabla de direccionamiento en tu `README.md` y bitácora de errores.
-
-#### Requerimientos Técnicos (Etapa 1):
-*   **VLAN 10 (Administración):** Red `192.168.10.0/24`
-*   **VLAN 20 (Ventas):** Red `192.168.20.0/24`
-*   **VLAN 30 (Invitados):** Red `192.168.30.0/24`
-*   **VLAN 99 (Nativa y Administración):** Red `192.168.99.0/24`
-*   Seguridad básica: `enable secret`, cifrado de contraseñas de texto plano y mensaje de advertencia (`banner motd`).
+Durante el curso, aplicarás los conocimientos de **Switching, Routing and Wireless Essentials** para diseñar, segmentar, automatizar y asegurar una red de 3 pisos dividida en **3 entregas calificables**.
 
 ---
 
-### 📍 Etapa 2: Redundancia y Servicios de Red (Módulos 5-9)
-*Optimización de enlaces, prevención de bucles y automatización de direccionamiento.*
+## 🛠️ Acceso Rápido a las Secciones
 
-*   **Hito 1 (Obligatorio en GitHub):** Duplicación de enlaces físicos entre switches centrales y configuración de EtherChannel (LACP).
-*   **Hito 2 (Obligatorio en GitHub):** Ajuste de prioridades en STP para asegurar qué switch es el Root Bridge principal y secundario.
-*   **Entrega Final Etapa 2:** Configuración de servidores DHCPv4 y DHCPv6 en el Router core. Las PCs deben recibir IP de manera automática.
+A continuación, selecciona el apartado que deseas consultar:
 
----
+### 1. 📋 [Instrucciones Generales del Proyecto](instrucciones.md)
+Consulta las reglas de entrega, cómo estructurar tu portafolio en GitHub, cómo subir tus archivos `.pkt` de Cisco Packet Tracer y cómo publicar tus avances en GitHub Pages.
 
-### 📍 Etapa 3: Red Inalámbrica, Seguridad y Conexión Externa (Módulos 10-16)
-*Protección de puertos contra intrusos, despliegue de red Wi-Fi corporativa y salida a Internet.*
+### 2. 🏢 [Caso de Estudio: Red "TechCorp"](problema.md)
+Lee la problemática técnica de la empresa, la distribución de los 3 pisos, la tabla requerida de VLANs (Administración, Ventas, TI, Gestión) y el direccionamiento IP.
 
-*   **Hito 1 (Obligatorio en GitHub):** Configuración de Port Security en switches de acceso (máximo 2 MACs por puerto y acción de violación *shutdown*).
-*   **Hito 2 (Obligatorio en GitHub):** Configuración de un Access Point o WLC inalámbrico con seguridad WPA2 para los empleados de la empresa.
-*   **Entrega Final Etapa 3:** Enrutamiento estático hacia un Router externo que simula "Internet" y pruebas de conectividad de extremo a extremo.
+### 3. ✨ [Ejemplo de Portafolio / Entrega de Alumno](ejemplo-entrega.md)
+Un modelo visual de cómo debes documentar tu `README.md` individual cuando entregues cada etapa, incluyendo tablas, bloques de comandos CLI y capturas de pantalla.
 
----
+### 4. 📊 [Criterios de Evaluación y Calificación](criterios-evaluacion.md)
+Desglose de las ponderaciones de evaluación (50% Funcionamiento Técnico, 30% Documentación de Ingeniería y 20% Reflexión y Calidad).
 
-## 📋 Criterios de Evaluación (Rúbrica General por Etapa)
-
-*   **Funcionamiento Técnico (40%):** La topología en Packet Tracer opera correctamente, los comandos CLI son los adecuados y los pings/servicios son exitosos.
-*   **Historial de Avance Cronológico - Anti-IA (30%):** Presencia de commits constantes en el historial de GitHub que demuestren que el proyecto se construyó paso a paso durante las semanas de clase.
-*   **Documentación de Ingeniería (20%):** Tablas de direccionamiento completas, formato Markdown limpio y capturas de pantalla con la firma de identidad correspondiente.
-*   **Bitácora de Troubleshooting (10%):** Documentación real y honesta de al menos dos errores encontrados durante las configuraciones y cómo se resolvieron.
+### 5. ✅ [Lista de Cotejo (Rúbrica Etapa 1)](lista-cotejo.md)
+Consulta o descarga la rúbrica detallada en formato de lista de verificación para revisar tu trabajo antes de enviarlo.
 
 ---
 
-## 🛠️ Instrucciones para que el Alumno Inicie su Portafolio
+## 📅 Entregas del Semestre
 
-1. Crea tu cuenta gratuita en [GitHub](https://github.com).
-2. Crea un repositorio público llamado `portafolio-ccna2` e inicialízalo con un archivo `README.md`.
-3. Ve a **Settings** -> **Pages**, selecciona la rama **`main`** y guarda para activar tu sitio web público.
-4. Copia la estructura del portafolio que el profesor te proporcionará en clase, pégala en tu `README.md` y comienza a trabajar en tus commits técnicos desde la primera sesión práctica.
+| Etapa | Módulos CCNA 2 | Estado |
+| :--- | :--- | :---: |
+| **Etapa 1** | Módulos 1-4: VLANs y Enrutamiento Inter-VLAN | 🟢 **Activo** |
+| **Etapa 2** | Módulos 5-9: EtherChannel, STP y DHCPv4/v6 | 🟡 Próximamente |
+| **Etapa 3** | Módulos 10-16: WLAN (WLC), Port Security y Rutas Estáticas | 🔴 Próximamente |
+
+---
+*© 2026 - Material Didáctico CCNA 2 | Publicado con GitHub Pages*
