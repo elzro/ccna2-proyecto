@@ -3,6 +3,38 @@
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
 
 ---
+#### 📚 Objetivos Didácticos
+
+Al finalizar este ejercicio práctico, el estudiante será capaz de:
+
+- **Diseñar e implementar** una topología LAN jerárquica en estrella extendida utilizando switches de capa de acceso y distribución interconectados con un router central.
+    
+- **Segmentar el tráfico de red** mediante la creación y asignación de VLANs (Administración, Laboratorios, Dirección y Gestión) para optimizar el dominio de difusión y la seguridad.
+    
+- **Configurar enrutamiento Inter-VLAN** bajo la técnica _Router-on-a-Stick_, implementando subinterfaces en una interfaz física con encapsulamiento IEEE 802.1Q.
+    
+- **Establecer la gestión de infraestructura** mediante la configuración de Interfaces Virtuales de Switch (SVI) en la VLAN de administración y la asignación de puertas de enlace predeterminadas (_Default Gateway_).
+    
+- **Calcular y documentar el direccionamiento IPv4**, identificando rangos utilizables, subredes `/24`, direcciones de subinterfaz y direccionamiento estático en hosts.
+    
+
+#### 🛠️ Competencias Profesionales y Técnicas (Saber Hacer)
+
+- **Asociadas a la Certificación Cisco CCNA 2 (SRWE v7):**
+    
+    - **Módulo 3:** Demuestra dominio en la configuración de VLANs, puertos de acceso y puertos troncales (_Trunking_).
+        
+    - **Módulo 4:** Implementa exitosamente el enrutamiento Inter-VLAN mediante subinterfaces en routers Cisco IOS.
+        
+    - **Módulo 1:** Aplica configuraciones iniciales de seguridad y gestión en switches Catalyst (SVI, hostnames, contraseñas y puertas de enlace).
+        
+- **Competencias Transversales de Ingeniería y TI:**
+    
+    - **Pensamiento Crítico y Resolución de Problemas:** Diagnostica y resuelve fallos de conectividad entre diferentes subredes lógicas.
+        
+    - **Documentación Técnica de Ingeniería:** Elabora tablas de direccionamiento precisas y mantiene un portafolio digital estructurado con buenas prácticas de gestión de versiones en GitHub
+
+
 
 ## Escenario
 La empresa *TechCorp* requiere interconectar las oficinas de su nuevo edificio .
