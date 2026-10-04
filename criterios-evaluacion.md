@@ -1,7 +1,7 @@
 ---
 
 ### 4. `criterios-evaluacion.md`
-```markdown
+
 # 📊 Criterios de Evaluación
 
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
