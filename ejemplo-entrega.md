@@ -1,0 +1,16 @@
+# ✨ Ejemplo de Entrega (Modelo para el Alumno)
+
+[🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
+
+---
+
+*(Los alumnos pueden guiarse con esta estructura para armar su README)*
+
+## 📥 Archivo de Packet Tracer
+- [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
+
+## 📸 Evidencias CLI
+```bash
+SW-Piso1# show vlan brief
+10   Administracion                   active    Fa0/1, Fa0/2
+20   Ventas                           active    Fa0/3, Fa0/4
