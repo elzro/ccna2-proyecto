@@ -4,7 +4,7 @@ Instrucciones, requerimientos técnicos y política de evaluación para el Proye
 
 # 🏢 Proyecto Integrador: Red Corporativa "TechCorp"
 **Asignatura:** Conectividad de Redes (CCNA 2 - SRWE v7)  
-**Profesor:** [Tu Nombre Completo]  
+**Profesor:** [ Tu Nombre Completo]  
 **Institución:** [Nombre del Bachillerato]
 
 Bienvenido al repositorio oficial del proyecto integrador. Este espacio contiene el escenario, los requerimientos técnicos y las reglas de evaluación obligatorias para construir la infraestructura de red de la empresa *TechCorp*.
