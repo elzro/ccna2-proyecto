@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Ocultar la franja amarilla del banner y los botones de descarga */
+#banner, .banner, #downloads {
+  display: none !important;
+}
+
+/* Ajustar el margen superior tras quitar la franja */
+header {
+  padding-top: 20px !important;
+}
