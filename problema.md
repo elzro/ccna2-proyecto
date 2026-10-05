@@ -11,7 +11,7 @@
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
 
 ---
-### 📍 Etapa 1: Infraestructura Base y Segmentación (Módulos 1-4)
+# 📍 Etapa 1: Infraestructura Base y Segmentación (Módulos 1-4)
 *Configuración inicial de seguridad, diseño de VLANs y Enrutamiento Inter-VLAN.*
 
 #### 📚 Objetivos Didácticos
