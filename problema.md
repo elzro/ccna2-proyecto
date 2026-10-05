@@ -98,7 +98,7 @@ Tus tareas principales consisten en:
 
 # 📌 Entregables del Proyecto
 
-#### - **📝 1. Plan de Direccionamiento:** Completar la matriz de direccionamiento (Tabla A para infraestructura interlineal y Tabla B para hosts) resolviendo las direcciones faltantes y puertas de enlace correspondientes.
+- **📝 1. Plan de Direccionamiento:** Completar la matriz de direccionamiento (Tabla A para infraestructura interlineal y Tabla B para hosts) resolviendo las direcciones faltantes y puertas de enlace correspondientes.
     
 - **📝 2. Archivo de Simulación (`.pkt`):** Subir al repositorio del proyecto el archivo de Cisco Packet Tracer completamente interconectado, configurado y validado mediante pruebas de conectividad (_ping_ inter-VLAN).
 
