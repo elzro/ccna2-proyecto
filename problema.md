@@ -96,10 +96,22 @@ Tus tareas principales consisten en:
 3. **Asignación de Hosts:** Configurar las direcciones IP estáticas en formato CIDR en los dispositivos finales y establecer el enlace hacia su respectiva puerta de enlace.
     
 
-#📌 Entregables del Proyecto
+# 📌 Entregables del Proyecto
 
-- **Plan de Direccionamiento:** Completar la matriz de direccionamiento (Tabla A para infraestructura interlineal y Tabla B para hosts) resolviendo las direcciones faltantes y puertas de enlace correspondientes.
+#### - **📝 1. Plan de Direccionamiento:** Completar la matriz de direccionamiento (Tabla A para infraestructura interlineal y Tabla B para hosts) resolviendo las direcciones faltantes y puertas de enlace correspondientes.
     
-- **Archivo de Simulación (`.pkt`):** Subir al repositorio del proyecto el archivo de Cisco Packet Tracer completamente interconectado, configurado y validado mediante pruebas de conectividad (_ping_ inter-VLAN).
+- **📝 2. Archivo de Simulación (`.pkt`):** Subir al repositorio del proyecto el archivo de Cisco Packet Tracer completamente interconectado, configurado y validado mediante pruebas de conectividad (_ping_ inter-VLAN).
 
+- **📝 3. Diario de Aprendizaje y Troubleshooting (Anti-IA)**
 
+[](https://github.com/elzro/portafolio-alumno-prueba/blob/main/README.md#-4-diario-de-aprendizaje-y-troubleshooting-anti-ia)
+
+- **¿Cuál fue el mayor reto técnico que enfrentaste en esta unidad?**  
+    [Escribe aquí tu respuesta con tus propias palabras]
+    
+- **Bitácora de Errores (Documenta al menos 2 fallas que te ocurrieron y cómo las solucionaste):**
+    
+    1. _Error 1:_ [Ej: Olvidé poner el comando encapsulation dot1Q en la subinterfaz]  
+        _Solución:_ [Ej: Entré a la subinterfaz, ejecuté encapsulation dot1q 10 y el tráfico comenzó a fluir]
+    2. _Error 2:_ [Escribe aquí tu segundo error real]  
+        _Solución:_ [Escribe cómo lo solucionaste]
