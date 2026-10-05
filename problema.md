@@ -83,7 +83,7 @@ Tus tareas principales consisten en:
     - **VLAN 20 (Laboratorios):** `192.168.20.0/24`
     - **VLAN 30 (Dirección):** `192.168.30.0/24`
     - **VLAN 99 (Gestión):** `192.168.99.0/24` — SVI de Switches
-    - **VLAN 999 (Blackhole):** Puertos inactivos(apagados)
+    - **VLAN 999 (Blackhole):** Puertos inactivos (apagados)
         
 2. **Configuración de Interfaces e Interlocking:**
     
@@ -100,4 +100,4 @@ Tus tareas principales consisten en:
     
 - **Archivo de Simulación (`.pkt`):** Subir al repositorio del proyecto el archivo de Cisco Packet Tracer completamente interconectado, configurado y validado mediante pruebas de conectividad (_ping_ inter-VLAN).
 
-Archivo de Simulación (.pkt): Subir al repositorio del proyecto el archivo de Cisco Packet Tracer completamente interconectado, configurado y validado mediante pruebas de conectividad (ping inter-VLAN).
+
