@@ -96,7 +96,7 @@ Tus tareas principales consisten en:
 3. **Asignación de Hosts:** Configurar las direcciones IP estáticas en formato CIDR en los dispositivos finales y establecer el enlace hacia su respectiva puerta de enlace.
     
 
-## Entregables del Proyecto
+#📌 Entregables del Proyecto
 
 - **Plan de Direccionamiento:** Completar la matriz de direccionamiento (Tabla A para infraestructura interlineal y Tabla B para hosts) resolviendo las direcciones faltantes y puertas de enlace correspondientes.
     
