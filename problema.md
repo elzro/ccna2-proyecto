@@ -61,30 +61,50 @@ A su vez, el `SW-Core` dará acceso directo a los equipos locales del edificio a
 ```text
                [ R1-Core (Router) ]
                         |
-                        | (Interfaz G0/0/0)
+                        | (Interfaz G0/0/0 - Trunk Router-on-a-Stick)
                         |
-                 [ SW-Core ] ------------- Dispositivos Locales:
-                  /       \                ├── VLAN 99: 1 PC Gestión
-                 /         \               ├── VLAN 10: 6 PCs Administrativos
-                /           \              └── VLAN 30: 2 PCs Dirección
-               /             \
+                 [ SW-Core ] ------------- Local:
+                  /       \                └── VLAN 99: 1 PC Gestión
+                 / (Trunk) \ (Trunk)
+                /           \
           [ SW-Lab1 ]    [ SW-Lab2 ]
 
-              |                |
-       (VLAN 20: 3 PCs) (VLAN 20: 3 PCs)
+      Dispositivos en SW-Lab1:       Dispositivos en SW-Lab2:
+      ├── VLAN 10: 3 PCs Admin       ├── VLAN 10: 3 PCs Admin
+      ├── VLAN 20: 3 PCs Alumnos     ├── VLAN 20: 3 PCs Alumnos
+      └── VLAN 30: 1 PC Dirección    └── VLAN 30: 1 PC Dirección
+
 ```
+
 1. **Enrutamiento Central (`R1-Core`):** Recibe la interfaz troncal proveniente del `SW-Core` y aloja las subinterfaces asociadas a cada VLAN (`.10`, `.20`, `.30` y `.99`), actuando como la puerta de enlace predeterminada (_Default Gateway_) para toda la infraestructura.
     
-2. **Distribución Principal (`SW-Core`):** Conecta directamente con el router central y atiende a los hosts locales de las oficinas principales:
+### Desglose Detallado por Switch y VLAN
+
+1. **`R1-Core` (Router Central):**
     
-    - **1 PC de Gestión** asignada a la VLAN 99 (Puerto `Fa0/9`).
+    - **Interfaz G0/0/0:** Concentra las subinterfaces (`.10`, `.20`, `.30`, `.99`) y actúa como la puerta de enlace predeterminada para todas las subredes.
         
-    - **6 PCs de Administración** pertenecientes a la VLAN 10 (Puertos `Fa0/1` al `Fa0/6`).
-        
-    - **2 PCs de Dirección General** integradas en la VLAN 30 (Puertos `Fa0/7` y `Fa0/8`).
-        
-3. **Acceso Remoto (`SW-Lab1` y `SW-Lab2`):** Interconectados mediante enlaces troncales hacia el `SW-Core`. Cada uno da servicio a **3 PCs de Alumnos** pertenecientes a la VLAN 20 (Puertos `Fa0/1` al `Fa0/3` en ambos switches).
+2. **`SW-Core` (Switch Núcleo):**
     
+    - **VLAN 99 (Gestión):** **1 PC Gestión** (`Fa0/9`).
+        
+    - **Enlaces Troncales:** Puertos interconectados hacia `SW-Lab1` y `SW-Lab2` etiquetando las VLANs 10, 20, 30 y 99.
+        
+3. **`SW-Lab1` (Switch Acceso - Edificio A):**
+    
+    - **VLAN 10 (Administrativos):** **3 PCs** (`Fa0/1` al `Fa0/3`)
+        
+    - **VLAN 20 (Alumnos):** **3 PCs** (`Fa0/4` al `Fa0/6`)
+        
+    - **VLAN 30 (Dirección):** **1 PC** (`Fa0/7`)
+        
+4. **`SW-Lab2` (Switch Acceso - Edificio B):**
+    
+    - **VLAN 10 (Administrativos):** **3 PCs** (`Fa0/1` al `Fa0/3`)
+        
+    - **VLAN 20 (Alumnos):** **3 PCs** (`Fa0/4` al `Fa0/6`)
+        
+    - **VLAN 30 (Dirección):** **1 PC** (`Fa0/7`)
 
 ### Desafío y Requerimientos de Configuración
 
