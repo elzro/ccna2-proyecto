@@ -61,7 +61,7 @@ Para garantizar un aprendizaje real y profesional, **este proyecto no se calific
 *   Seguridad básica: `enable secret`, cifrado de contraseñas de texto plano y mensaje de advertencia (`banner motd`).
 
 ---
-
+<!--
 ### 📍 Etapa 2: Redundancia y Servicios de Red (Módulos 5-9)
 *Optimización de enlaces, prevención de bucles y automatización de direccionamiento.*
 
@@ -79,6 +79,7 @@ Para garantizar un aprendizaje real y profesional, **este proyecto no se calific
 *   **Entrega Final Etapa 3:** Enrutamiento estático hacia un Router externo que simula "Internet" y pruebas de conectividad de extremo a extremo.
 
 ---
+-->
 
 ## 📋 Criterios de Evaluación (Rúbrica General por Etapa)
 
@@ -89,7 +90,7 @@ Para garantizar un aprendizaje real y profesional, **este proyecto no se calific
 
 ---
 
-## 🛠️ Instrucciones para que el Alumno Inicie su Portafolio
+## 🛠️ Instrucciones para que inicies tu Portafolio
 
 1. Crea tu cuenta gratuita en [GitHub](https://github.com).
 2. Crea un repositorio público llamado `portafolio-ccna2` e inicialízalo con un archivo `README.md`.
