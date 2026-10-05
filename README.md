@@ -16,7 +16,7 @@
 
 Este portal web contiene las especificaciones, el caso de estudio y los instrumentos de evaluación para el desarrollo de la red corporativa **TechCorp**. 
 
-Durante el curso, aplicarás los conocimientos de **Switching, Routing and Wireless Essentials** para diseñar, segmentar, automatizar y asegurar una red de 3 pisos dividida en **3 entregas calificables**.
+Durante el curso, aplicarás los conocimientos de **Switching, Routing and Wireless Essentials** para diseñar, segmentar, automatizar y asegurar una red dividida en **3 entregas calificables**.
 
 ---
 
