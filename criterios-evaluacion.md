@@ -1,3 +1,9 @@
+# 🌐 Proyecto Integrador: Red Corporativa CCNA 2 (SRWE v7)
+
+> **Materia:** Manejo de Tecnologias de conmutación y enrutamiento / CCNA 2 v7  
+> **Nivel:** 5 Semestre Conalep 039  
+> **Profesor:** elzro  
+
 ---
 
 ### 4. `criterios-evaluacion.md`
