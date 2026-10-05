@@ -36,12 +36,12 @@ Un modelo visual de cómo debes documentar tu `README.md` individual cuando entr
 ### 4. 📊 [Criterios de Evaluación y Calificación](criterios-evaluacion.md)
 Desglose de las ponderaciones de evaluación (50% Funcionamiento Técnico, 30% Documentación de Ingeniería y 20% Reflexión y Calidad).
 
-#### 5. ✅ [Lista de Cotejo (Rúbrica Etapa 1)](lista-cotejo.md)
+### 5. ✅ [Lista de Cotejo (Rúbrica Etapa 1)](lista-cotejo.md)
 Consulta o descarga la rúbrica detallada en formato de lista de verificación para revisar tu trabajo antes de enviarlo.
 
 ---
 
-## 📅 Entregas del Semestre
+# 📅 Entregas del Semestre
 
 | Etapa | Módulos CCNA 2 | Estado |
 | :--- | :--- | :---: |
