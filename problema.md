@@ -88,6 +88,8 @@ Tus tareas principales consisten en:
     - **VLAN 30 (Dirección):** `192.168.30.0/24`
     - **VLAN 99 (Gestión):** `192.168.99.0/24` — SVI de Switches
     - **VLAN 999 (Blackhole):** Puertos inactivos (apagados)
+    - *   Seguridad básica: `enable secret`, cifrado de contraseñas de texto plano y mensaje de advertencia (`banner motd`).
+
         
 2. **Configuración de Interfaces e Interlocking:**
     
