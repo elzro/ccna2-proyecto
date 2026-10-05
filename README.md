@@ -1,4 +1,3 @@
----
 # 🌐 Proyecto Integrador: Red Corporativa CCNA 2 (SRWE v7)
 
 > **Materia:** Manejo de Tecnologias de conmutación y enrutamiento / CCNA 2 v7  
