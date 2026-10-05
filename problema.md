@@ -79,13 +79,11 @@ Tus tareas principales consisten en:
 
 1. **Cálculo de Direccionamiento IP:** Aplicar los parámetros de direccionamiento IPv4 con máscara de subred `/24` (`255.255.255.0`) según los segmentos asignados:
     
-    - **VLAN 10 (Administración):** `192.168.10.0/24`
-        
+    - **VLAN 10 (Administración):** `192.168.10.0/24`       
     - **VLAN 20 (Laboratorios):** `192.168.20.0/24`
-        
     - **VLAN 30 (Dirección):** `192.168.30.0/24`
-        
-    - **VLAN 99 (Gestión):** `192.168.99.0/24`
+    - **VLAN 99 (Gestión):** `192.168.99.0/24` — SVI de Switches
+    - **VLAN 999 (Blackhole):** Puertos inactivos(apagados)
         
 2. **Configuración de Interfaces e Interlocking:**
     
