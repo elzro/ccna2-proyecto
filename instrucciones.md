@@ -40,7 +40,7 @@ Para garantizar un aprendizaje real y profesional, **este proyecto no se calific
 
 1. **La Regla de los Commits:** Está estrictamente prohibido subir todo el proyecto terminado en un solo día o de último momento. Cada etapa requiere un **mínimo de 3 "commits" (guardados)** en días y horas diferentes dentro de tu historial de GitHub. 
 2. **Penalización por "Entrega Mágica":** Si tu archivo `.pkt` funciona a la perfección pero tu historial de GitHub muestra un solo commit el último día, **perderás automáticamente el 30% de la calificación** de esa etapa.
-3. **Firma de Identidad CLI:** Todos los switches y routers deben configurarse con un Hostname que incluya tus iniciales (ej. `S1-Piso1-JPA`). Las capturas de pantalla de la consola deben incluir obligatoriamente el comando `show version` para verificar el tiempo de encendido real del simulador.
+3. **Firma de Identidad CLI:** Todos los switches y routers deben configurarse con un Hostname que incluya tus iniciales (ej. `S1-Lab1-JPA`). Las capturas de pantalla de la consola deben incluir obligatoriamente el comando `show version` para verificar el tiempo de encendido real del simulador.
 
 ---
 
