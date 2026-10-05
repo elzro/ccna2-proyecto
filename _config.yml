@@ -1,0 +1,9 @@
+title: "Portafolio CCNA 2 - TechCorp"
+description: "Proyecto de Redes e Interconexión VLANs"
+
+# Asigna un tema oficial compatible con GitHub Pages
+theme: jekyll-theme-cayman
+
+# Configura Kramdown para usar Rouge como resaltador de código
+kramdown:
+  syntax_highlighter: rouge
