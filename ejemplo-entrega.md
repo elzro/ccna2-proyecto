@@ -14,3 +14,12 @@
 SW-Piso1# show vlan brief
 10   Administracion                   active    Fa0/1, Fa0/2
 20   Ventas                           active    Fa0/3, Fa0/4
+```
+
+A continuación se presenta la configuración de la interfaz en R1-Core:
+
+```bash
+interface GigabitEthernet0/0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.254 255.255.255.0
+```
