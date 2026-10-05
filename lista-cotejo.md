@@ -1,3 +1,11 @@
+# 🌐 Proyecto Integrador: Red Corporativa CCNA 2 (SRWE v7)
+
+> **Materia:** Manejo de Tecnologias de conmutación y enrutamiento / CCNA 2 v7  
+> **Nivel:** 5 Semestre Conalep 039  
+> **Profesor:** elzro  
+
+---
+
 # ✅ Lista de Cotejo / Rúbrica (Etapa 1)
 
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
