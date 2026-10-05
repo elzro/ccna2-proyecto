@@ -58,6 +58,21 @@ A su vez, el `SW-Core` dará acceso directo a los equipos locales del edificio a
 
 ### Descripción del Escenario Topológico
 
+```text
+               [ R1-Core (Router) ]
+                        |
+                        | (Interfaz G0/0/0)
+                        |
+                 [ SW-Core ] ------------- Dispositivos Locales:
+                  /       \                ├── VLAN 99: 1 PC Gestión
+                 /         \               ├── VLAN 10: 6 PCs Administrativos
+                /           \              └── VLAN 30: 2 PCs Dirección
+               /             \
+          [ SW-Lab1 ]    [ SW-Lab2 ]
+
+              |                |
+       (VLAN 20: 3 PCs) (VLAN 20: 3 PCs)
+```
 1. **Enrutamiento Central (`R1-Core`):** Recibe la interfaz troncal proveniente del `SW-Core` y aloja las subinterfaces asociadas a cada VLAN (`.10`, `.20`, `.30` y `.99`), actuando como la puerta de enlace predeterminada (_Default Gateway_) para toda la infraestructura.
     
 2. **Distribución Principal (`SW-Core`):** Conecta directamente con el router central y atiende a los hosts locales de las oficinas principales:
