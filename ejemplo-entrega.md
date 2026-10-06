@@ -14,7 +14,7 @@
 ## 📥 Archivo de Packet Tracer
 - [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
 
-#Escribe los comando que estas ejecuntando para la configuración en tu archivo `readme.md` de la siguiente manera
+#Escribe los comandos que estas ejecuntando para la configuración en tu archivo `readme.md` de la siguiente manera para que se muestren como acontinuación
 ````markdown
 ```bash
 R1-Core-ELO(config)#interface GigabitEthernet0/0/0.10
