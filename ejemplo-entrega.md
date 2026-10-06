@@ -39,10 +39,13 @@
 
 #### Tabla B: Dispositivos Finales (PCs de Usuario y Gestión) EJEMPLO
 
+
 | Dispositivo Final | Puerto del Switch | VLAN | Dirección IP (Formato CIDR) | Gateway por Defecto |
 | :--- | :--- | :---: | :--- | :--- |
-| **PC-Administrativos-1** | `SW-Lab2-ELO` -> `Fa0/1` | 10 | `192.168.10.15/24` | Última IP utilizable del segmento |
-| **PC-Alumnos-2** | `SW-Lab1-ELO` -> `Fa0/2` | 10 | `192.168.10.42/24` | Última IP utilizable del segmento |
+| **PC-Administrativos-1** | `SW-Lab2-ELO -> Fa0/1` | 10 | `192.168.10.15/24` | Última IP utilizable del segmento |
+| **PC-Alumnos-2** | `SW-Lab1-ELO -> Fa0/2` | 10 | `192.168.10.42/24` | Última IP utilizable del segmento |
+
+
 ## 📥 Archivo de Packet Tracer
 - [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
 
