@@ -39,7 +39,6 @@
 
 #### Tabla B: Dispositivos Finales (PCs de Usuario y Gestión) EJEMPLO
 
-
 | Dispositivo Final | Puerto del Switch | VLAN | Dirección IP (Formato CIDR) | Gateway por Defecto |
 | :--- | :--- | :---: | :--- | :--- |
 | **PC-Administrativos-1** | `SW-Lab2-ELO -> Fa0/1` | 10 | `192.168.10.15/24` | Última IP utilizable del segmento |
