@@ -3,7 +3,7 @@
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
 
 ---
-[ejemplo de entrega].(1-topologia.png)
+[ejemplo de entrega].(imgs/1-topologia.png)
 
 *(Los alumnos pueden guiarse con esta estructura para armar su README)*
 
