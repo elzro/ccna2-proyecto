@@ -3,9 +3,20 @@
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
 
 ---
-### 📋 Sigue un plan de Configuración de Red en orden por ejemplo:
-- [x] Configurar el nombre del Host (`R1-Core-ELO`)
-- [ ] Configurar la subinterfaz `GigabitEthernet0/0/0.10`
+# Ejemplo de entrega de la primera sesion (recuerda que son varias sesiones de trabajo)
+
+### 📋 Sigue un plan de Configuración de Red en orden por objetivos:
+- [x] Crear el diagrama y cablear acorde a la topologia.
+- [ ] Crear la tabla de direccionamiento.
+- [ ] Asignar nombre a los dispositivos con tus iniciales al final ej. (`R1-Core-ELO`).
+- [ ] Realizar las tareas de configuracion básica de sw y router (contraseñas), y mensaje del dia.
+- [ ] Crear las VLANs.
+- [ ] Asignar los puertos a las VLANS.
+- [ ] Verificar la configuracion de la VLANs.
+- [ ] Habilitar los enlaces troncales.
+- [ ] Verificar la configuracion de los enlaces troncales.
+- [ ] Guardar la configuración
+- [ ] Configurar la subinterfaces en el router.
 - [ ] Asignar direccionamiento IP y encapsulamiento Dot1Q
 - [x] Verificar conectividad con Ping
 
@@ -16,6 +27,12 @@
 ```bash
 ![imagen de topologia](./imgs/1-topologia.png)
 ```
+## Crea Tabla de direccionamiento ejemplo
+| Dispositivo | Interface | Dirección IP | Mascara | Puerta de enlace |
+| :--- | :--- | :--- | :--- | :--- |
+| R1-Core-ELO | Gi0/0/0.10 | 192.168.10.1 | 255.255.255.0 | N/A |
+| SW-Lab1-ELO | Fa0/1 | 192.168.10.2 | 255.255.255.0 | 192.168.10.1 |
+| PC1-Admin | Eth0 | 192.168.10.50 | 255.255.255.0 | 192.168.10.1 |
 
 ## 📥 Archivo de Packet Tracer
 - [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
