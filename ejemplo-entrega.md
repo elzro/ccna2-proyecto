@@ -6,7 +6,7 @@
 ![ejemplo de entrega](./imgs/1-topologia.png)
 
 *(Agrega las imagenes puedes guiarte con esta estructura para armar su README)*
-**recomiendo crear una imagen en una carpeta** 'imgs'
+**recomiendo crear una imagen en una carpeta** `imgs` y colocar ahi las imagenes
 ```bash
 ![imagen de topologia](./imgs/1-topologia.png)
 ```
