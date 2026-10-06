@@ -28,11 +28,11 @@
 ![imagen de topologia](./imgs/1-topologia.png)
 ```
 ## Crea Tabla de direccionamiento ejemplo
-| Dispositivo | Interface | Dirección IP | Mascara | Puerta de enlace |
-| :--- | :--- | :--- | :--- | :--- |
-| R1-Core-ELO | Gi0/0/0.10 | 192.168.10.1 | 255.255.255.0 | N/A |
-| SW-Lab1-ELO | Fa0/1 | 192.168.10.2 | 255.255.255.0 | 192.168.10.1 |
-| PC1-Admin | Eth0 | 192.168.10.50 | 255.255.255.0 | 192.168.10.1 |
+| Dispositivo | Interface | Dirección IP | Mascara | Puerta de enlace | Modo |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| R1-Core-ELO | Gi0/0/0.10 | 192.168.10.1 | 255.255.255.0 | N/A | Trunk |
+| SW-Lab1-ELO | Fa0/1 | 192.168.10.2 | 255.255.255.0 | 192.168.10.1 | Trunk |
+| PC1-Admin | Eth0 | 192.168.10.50 | 255.255.255.0 | 192.168.10.1 | Access |
 
 ## 📥 Archivo de Packet Tracer
 - [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
