@@ -27,9 +27,9 @@
 ```bash
 ![imagen de topologia](./imgs/1-topologia.png)
 ```
-## Crea Tabla de direccionamiento ejemplo
+## 📋Crea Tabla de direccionamiento
 
-#### Tabla A: Dispositivos Intermedios (Routers y Switches)
+#### Tabla A: Dispositivos Intermedios (Routers y Switches) EJEMPLO
 
 | Dispositivo / Interfaz | VLAN | Segmento de Red Base | Dirección IP a Calcular / Configurar | Máscara de Subred | Gateway por Defecto |
 | :--- | :---: | :--- | :--- | :--- | :--- |
@@ -37,7 +37,7 @@
 | **R1-Core-ELO** (`G0/0/0.20`) | 20 | `192.168.20.0/24` | **Última IP utilizable del segmento** | `255.255.255.0` | *No aplica* |
 
 
-#### Tabla B: Dispositivos Finales (PCs de Usuario y Gestión)
+#### Tabla B: Dispositivos Finales (PCs de Usuario y Gestión) EJEMPLO
 
 | Dispositivo Final | Puerto del Switch | VLAN | Dirección IP (Formato CIDR) | Gateway por Defecto |
 | :--- | :--- | :---: | :--- | :--- |
