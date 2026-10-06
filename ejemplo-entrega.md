@@ -3,6 +3,7 @@
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
 
 ---
+<img width="1883" height="1433" alt="1- topologia muestra" src="https://github.com/user-attachments/assets/dce7a163-2894-482d-9a42-f61ed7054073" />
 
 *(Los alumnos pueden guiarse con esta estructura para armar su README)*
 
