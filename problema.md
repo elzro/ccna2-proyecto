@@ -61,11 +61,11 @@ A su vez, el `SW-Core` dará acceso directo a los equipos locales del edificio a
 ```text
                [ R1-Core (Router) ]
                         |
-                        | (Interfaz G0/0/0 - Trunk Router-on-a-Stick)
+                        | (Interfaz G0/0/0 - Trunk Vlan 111, Router-on-a-Stick)
                         |
                  [ SW-Core ] ------------- Local:
                   /       \                └── VLAN 99: 1 PC Gestión
-                 / (Trunk) \ (Trunk)
+                 / (Trunk) \ (Trunk) Vlan 111 nativa
                 /           \
           [ SW-Lab1 ]    [ SW-Lab2 ]
 
@@ -76,13 +76,13 @@ A su vez, el `SW-Core` dará acceso directo a los equipos locales del edificio a
 
 ```
 
-1. **Enrutamiento Central (`R1-Core`):** Recibe la interfaz troncal proveniente del `SW-Core` y aloja las subinterfaces asociadas a cada VLAN (`.10`, `.20`, `.30` y `.99`), actuando como la puerta de enlace predeterminada (_Default Gateway_) para toda la infraestructura.
+1. **Enrutamiento Central (`R1-Core`):** Recibe la interfaz troncal proveniente del `SW-Core` y aloja las subinterfaces asociadas a cada VLAN (`.10`, `.20`, `.30`,`99` y `.111`), actuando como la puerta de enlace predeterminada (_Default Gateway_) para toda la infraestructura.
     
 ### Desglose Detallado por Switch y VLAN
 
 1. **`R1-Core` (Router Central):**
     
-    - **Interfaz G0/0/0:** Concentra las subinterfaces (`.10`, `.20`, `.30`, `.99`) y actúa como la puerta de enlace predeterminada para todas las subredes.
+    - **Interfaz G0/0/0:** Concentra las subinterfaces (`.10`, `.20`, `.30`, `.99`,`111`) y actúa como la puerta de enlace predeterminada para todas las subredes.
         
 2. **`SW-Core` (Switch Núcleo):**
     
@@ -119,6 +119,7 @@ Tus tareas principales consisten en:
     - **VLAN 30 (Dirección):** `192.168.30.0/24`
     - **VLAN 99 (Gestión):** `192.168.99.0/24` — SVI de Switches
     - **VLAN 999 (Blackhole):** Puertos inactivos (apagados)
+    - **VLAN 111 (Nativa):** vlan donde estan los enlaces troncales.
     - **Seguridad básica:** `enable secret`, cifrado de contraseñas de texto plano y mensaje de advertencia (`banner motd`).
 
         
@@ -138,6 +139,8 @@ Tus tareas principales consisten en:
 - **📝 2. Archivo de Simulación (`.pkt`):** Subir al repositorio del proyecto el archivo de Cisco Packet Tracer completamente interconectado, configurado y validado mediante pruebas de conectividad (_ping_ inter-VLAN).
 
 - **📝 3. Diario de Aprendizaje y Troubleshooting (Anti-IA)**
+
+-**📝 4. Video explicativo de 3 min maximo sobre el funcionamiento y donde explicas la configuracion.
 
 [](https://github.com/elzro/portafolio-alumno-prueba/blob/main/README.md#-4-diario-de-aprendizaje-y-troubleshooting-anti-ia)
 
