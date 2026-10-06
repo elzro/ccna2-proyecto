@@ -3,6 +3,12 @@
 [🏠 Inicio](README.md) | [📋 Instrucciones Generales](instrucciones.md) | [🏢 Problema: "TechCorp"](problema.md) | [✨ Ejemplo de Entrega](ejemplo-entrega.md) | [📊 Criterios de Evaluación](criterios-evaluacion.md) | [✅ Lista de Cotejo](lista-cotejo.md)
 
 ---
+### 📋 Sigue un plan de Configuración de Red en orden por ejemplo:
+- [x] Configurar el nombre del Host (`R1-Core-ELO`)
+- [ ] Configurar la subinterfaz `GigabitEthernet0/0/0.10`
+- [ ] Asignar direccionamiento IP y encapsulamiento Dot1Q
+- [x] Verificar conectividad con Ping
+
 ![ejemplo de entrega](./imgs/1-topologia.png)
 
 *(Agrega las imagenes puedes guiarte con esta estructura para armar su README)*
