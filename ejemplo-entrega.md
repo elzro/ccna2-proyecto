@@ -28,12 +28,21 @@
 ![imagen de topologia](./imgs/1-topologia.png)
 ```
 ## Crea Tabla de direccionamiento ejemplo
-| Dispositivo | Interface | Dirección IP | Mascara | Puerta de enlace | Modo |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| R1-Core-ELO | Gi0/0/0.10 | 192.168.10.1 | 255.255.255.0 | N/A | Trunk |
-| SW-Lab1-ELO | Fa0/1 | 192.168.10.2 | 255.255.255.0 | 192.168.10.1 | Trunk |
-| PC1-Admin | Eth0 | 192.168.10.50 | 255.255.255.0 | 192.168.10.1 | Access |
 
+#### Tabla A: Dispositivos Intermedios (Routers y Switches)
+
+| Dispositivo / Interfaz | VLAN | Segmento de Red Base | Dirección IP a Calcular / Configurar | Máscara de Subred | Gateway por Defecto |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| **R1-Core** (`G0/0/0.10`) | 10 | `192.168.10.0/24` | **Última IP utilizable del segmento** | `255.255.255.0` | *No aplica* |
+| **R1-Core** (`G0/0/0.20`) | 20 | `192.168.20.0/24` | **Última IP utilizable del segmento** | `255.255.255.0` | *No aplica* |
+
+
+#### Tabla B: Dispositivos Finales (PCs de Usuario y Gestión)
+
+| Dispositivo Final | Puerto del Switch | VLAN | Dirección IP (Formato CIDR) | Gateway por Defecto |
+| :--- | :--- | :---: | :--- | :--- |
+| **PC-Administrativos-1** | `SW-Core` -> `Fa0/1` | 10 | `192.168.10.15/24` | Última IP utilizable del segmento |
+| **PC-Administrativos-2** | `SW-Core` -> `Fa0/2` | 10 | `192.168.10.42/24` | Última IP utilizable del segmento |
 ## 📥 Archivo de Packet Tracer
 - [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
 
