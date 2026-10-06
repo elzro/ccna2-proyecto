@@ -15,11 +15,11 @@
 - [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
 
 #Escribe los comando que estas ejecuntando para la configuración
-```markdown
+````markdown
 ```bash
 R1-Core-ELO(config)#interface GigabitEthernet0/0/0.10
 ```
-```
+````
 
 
 
@@ -33,7 +33,7 @@ SW-Piso1# show vlan brief
 
 A continuación se presenta la configuración de la interfaz en R1-Core:
 
-```bash
+```cisco
 interface GigabitEthernet0/0/0.10
  encapsulation dot1Q 10
  ip address 192.168.10.254 255.255.255.0
