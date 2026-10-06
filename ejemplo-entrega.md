@@ -5,10 +5,23 @@
 ---
 ![ejemplo de entrega](./imgs/1-topologia.png)
 
-*(Los alumnos pueden guiarse con esta estructura para armar su README)*
+*(Agrega las imagenes puedes guiarte con esta estructura para armar su README)*
+**recomiendo crear una imagen en una carpeta** 'imgs'
+```bash
+![imagen de topologia](./imgs/1-topologia.png)
+```
 
 ## 📥 Archivo de Packet Tracer
 - [Descargar mi topología Etapa 1 (.pkt)](etapa1_red.pkt)
+
+#Escribe los comando que estas ejecuntando para la configuración
+```text
+```bash
+R1-Core-ELO(config)#interface GigabitEthernet0/0/0.10
+```
+
+```
+
 
 ## 📸 Evidencias CLI
 ```bash
